@@ -59,6 +59,8 @@ class Call extends Base {
          * @type {object}
          */
         this.participants = data.participants;
+
+        console.log(data)
         
         return super._patch(data);
     }
